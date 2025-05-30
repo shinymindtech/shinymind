@@ -22,7 +22,6 @@
     header {
       background-color: #203348;
       padding: 2rem 1rem;
-      text-align: center;
     }
 
     header img {
@@ -61,7 +60,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
       height: 320px;
       max-width: 250px;
     }
@@ -84,18 +83,20 @@
     .panel img {
       width: 90px;
       height: auto;
+      margin-bottom: 0.5rem; /* Reduced spacing between icon and heading */
     }
 
     .panel h2 {
       letter-spacing: 0.1em;
       font-size: 1rem;
-      margin: 1rem 0 0.5rem;
+      margin: 0.2rem 0 0.4rem; /* Tight spacing above and below heading */
       font-family: 'Raleway', sans-serif;
     }
 
     .panel p {
       font-size: 0.9rem;
-      margin: 0 auto;
+      margin: 0;
+      line-height: 1.4;
     }
 
     .inquiries {
