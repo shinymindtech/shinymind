@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Josefin+Sans&display=swap" rel="stylesheet">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ShinyMind</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Josefin+Sans&display=swap" rel="stylesheet">
+
   <style>
     body {
       font-family: 'Josefin Sans', sans-serif;
@@ -43,7 +45,6 @@
 
     .panels {
       display: flex;
-      flex-direction: row;
       flex-wrap: wrap;
       text-align: center;
     }
@@ -62,6 +63,7 @@
       align-items: center;
       justify-content: space-between;
       height: 320px;
+      max-width: 250px;
     }
 
     .companies {
@@ -93,7 +95,6 @@
 
     .panel p {
       font-size: 0.9rem;
-      max-width: 250px;
       margin: 0 auto;
     }
 
@@ -134,4 +135,52 @@
 </head>
 <body>
   <header>
-    <img src
+    <img src="assets/main-logo.png" alt="ShinyMind logo" />
+    <h1>SHINYMIND</h1>
+    <p>TECHNOLOGY THINK TANK</p>
+  </header>
+
+  <div class="panels">
+    <div class="panel companies">
+      <div class="panel-content">
+        <img src="assets/companies2.png" alt="Companies Icon" />
+        <h2 style="color: orange;">COMPANIES</h2>
+        <p>Technology to help businesses run smarter, faster, and with greater focus.</p>
+      </div>
+    </div>
+    <div class="panel individuals">
+      <div class="panel-content">
+        <img src="assets/indiviudals.png" alt="Individuals Icon" />
+        <h2 style="color: #203348;">INDIVIDUALS</h2>
+        <p style="color: black;">Technology to help individuals get the most out of their lives.</p>
+      </div>
+    </div>
+    <div class="panel government">
+      <div class="panel-content">
+        <img src="assets/govt.png" alt="Government Icon" />
+        <h2 style="color: #234D38;">GOVERNMENT</h2>
+        <p>Technology to help government become more efficient, more transparent, and corruption resistant.</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="background-color: #203348; height: 20px;"></div>
+
+  <section id="about">
+    <h2><span style="color: black; font-size: 1.8rem; font-weight: bold;">ABOUT</span>
+        <span style="color: #4A4A4A; font-size: 1.8rem; font-weight: bold;">US</span>
+    </h2>
+    <p>
+      Shinymind is a team of tech veterans who are passionate about cool ideas. Through our robotics skunkworks,
+      we have developed and patented neural network solutions that may one day serve as the central component to
+      the first truly conscious computers. Our proprietary technologies are in the realms of blockchain, VR, AI,
+      and the nexus of the three. We are currently developing AWAKEBOT, the world's first conscious VR humanoid.
+      More on that at <a href="https://www.awakebot.ai" target="_blank">www.awakebot.ai</a>.
+    </p>
+  </section>
+
+  <div class="inquiries">
+    <p>Contact: inquiry@shinymind.com</p>
+  </div>
+</body>
+</html>
