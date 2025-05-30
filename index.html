@@ -1,23 +1,189 @@
-<div class="panels">
-  <div class="panel companies">
-    <div class="panel-content" style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; height: 100%;">
-      <img src="assets/companies2.png" alt="Companies Icon" style="width: 90px; margin-bottom: 1rem;" />
-      <h2 style="color: orange;">COMPANIES</h2>
-      <p style="color: white;">Technology to help businesses run smarter, faster, and with greater focus.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Josefin+Sans&display=swap" rel="stylesheet">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShinyMind</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: 'Josefin Sans', sans-serif;
+      text-align: center;
+      background-color: #203348;
+      color: white;
+    }
+
+    header {
+      background-color: #203348;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 250px;
+      max-width: none;
+      height: auto;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin: 1rem 0 0.2rem;
+      font-family: 'Cinzel', serif;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 0.9rem;
+      letter-spacing: 0.1em;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .panels {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .panel {
+      flex: 1;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .panel-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100%;
+      max-width: 250px;
+    }
+
+    .companies {
+      background-color: #216370;
+      color: white;
+    }
+
+    .individuals {
+      background-color: #D1DDC7;
+      color: #0A1F44;
+    }
+
+    .government {
+      background-color: #5D7366;
+      color: white;
+    }
+
+    .panel img {
+      width: 90px;
+      margin-bottom: 1rem;
+    }
+
+    .panel h2 {
+      letter-spacing: 0.1em;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .panel p {
+      font-size: 0.9rem;
+      margin: 0 auto;
+    }
+
+    .inquiries {
+      background-color: #203348;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .inquiries a {
+      color: white;
+      text-decoration: underline;
+      font-weight: normal;
+      background: none;
+      padding: 0;
+      border-radius: 0;
+      font-size: 0.9rem;
+    }
+
+    section#about {
+      background-color: white;
+      color: #203348;
+      padding: 2rem;
+    }
+
+    section#about h2 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    section#about p {
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/main-logo.png" alt="ShinyMind logo" />
+    <h1>SHINYMIND</h1>
+    <p>TECHNOLOGY THINK TANK</p>
+  </header>
+
+  <div class="panels">
+    <div class="panel companies">
+      <div class="panel-content">
+        <img src="assets/companies2.png" alt="Companies Icon" />
+        <h2 style="color: orange;">COMPANIES</h2>
+        <p>Technology to help businesses run smarter, faster, and with greater focus.</p>
+      </div>
+    </div>
+    <div class="panel individuals">
+      <div class="panel-content">
+        <img src="assets/indiviudals.png" alt="Individuals Icon" />
+        <h2 style="color: #203348;">INDIVIDUALS</h2>
+        <p style="color: black;">Technology to help individuals get the most out of their lives.</p>
+      </div>
+    </div>
+    <div class="panel government">
+      <div class="panel-content">
+        <img src="assets/govt.png" alt="Government Icon" />
+        <h2 style="color: #234D38;">GOVERNMENT</h2>
+        <p>Technology to help government become more efficient, more transparent, and corruption resistant.</p>
+      </div>
     </div>
   </div>
-  <div class="panel individuals">
-    <div class="panel-content" style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; height: 100%;">
-      <img src="assets/indiviudals.png" alt="Individuals Icon" style="width: 90px; margin-bottom: 1rem;" />
-      <h2 style="color: #203348;">INDIVIDUALS</h2>
-      <p style="color: black;">Technology to help individuals get the most out of their lives.</p>
-    </div>
+
+  <div style="background-color: #203348; height: 20px;"></div>
+
+  <section id="about">
+    <h2><span style="color: black; font-size: 1.8rem; font-weight: bold;">ABOUT</span>
+        <span style="color: #4A4A4A; font-size: 1.8rem; font-weight: bold;">US</span>
+    </h2>
+    <p>
+      Shinymind is a team of tech veterans who are passionate about cool ideas. Through our robotics skunkworks,
+      we have developed and patented neural network solutions that may one day serve as the central component to
+      the first truly conscious computers. Our proprietary technologies are in the realms of blockchain, VR, AI,
+      and the nexus of the three. We are currently developing AWAKEBOT, the world's first conscious VR humanoid.
+      More on that at <a href="https://www.awakebot.ai" target="_blank">www.awakebot.ai</a>.
+    </p>
+  </section>
+
+  <div class="inquiries">
+    <p style="color: white;">Contact: inquiry@shinymind.com</p>
   </div>
-  <div class="panel government">
-    <div class="panel-content" style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; height: 100%;">
-      <img src="assets/govt.png" alt="Government Icon" style="width: 90px; margin-bottom: 1rem;" />
-      <h2 style="color: #234D38;">GOVERNMENT</h2>
-      <p style="color: white;">Technology to help government become more efficient, more transparent, and corruption resistant.</p>
-    </div>
-  </div>
-</div>
+</body>
+</html>
